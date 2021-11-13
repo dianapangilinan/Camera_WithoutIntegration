@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".showImg"
+    android:id="@+id/showCamera"
+    android:background="@drawable/background3">
+
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:fontFamily="@font/quiapo"
+        android:text="BAYBAYSALIN"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="70dp" />
+
+    <TextView
+        android:id="@+id/tvHeader2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+        android:fontFamily="@font/quiapo"
+        android:text="Click the camera to start"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/btnCaptureImg"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_baseline_camera_alt_24" />
+
+
+</RelativeLayout>
